@@ -1,43 +1,147 @@
-<html>
-    <head>
-        <title>meu website</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-      <header>
-        
-        <nav>
-            <ul>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homem-Aranha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-                <li>
-                    <a href="https://paffetti.com/" class="home">Home </a> 
-                </li>
+    <header class="hero">
+        <div class="hero-overlay">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#origem">Origem</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#dualidade">Dualidade</a></li>
+                    <li><a href="#desafios">Desafios</a></li>
+                    <li><a href="#legado">Legado</a></li>
+                </ul>
+            </nav>
 
-                <li>
-                    <a href="https://paffetti.com/" class="sobre">Sobre </a>
-                </li>
-
-                <li>
-                    <a href="https://paffetti.com/">Contato </a>
-                </li>
-
-            </ul>
-        </nav>
-
-      </header>  
-      <section>
-        <div>
-            <img src="/imagens/spider-man.jpg" class="imagem" alt="img do Miranha">
-    <h2>Esse é o Homem aranha</h2>
-            
+            <div class="hero-content">
+                <h1>Homem-Aranha: O Amigão da Vizinhança</h1>
+                <p class="subtitle">A história por trás da máscara de Peter Parker.</p>
+                <p class="cta">"Com grandes poderes, vêm grandes responsabilidades."</p>
+            </div>
         </div>
-      </section>
+    </header>
 
-<footer>
-    <p>Todos os direitos para Leonardo Paffetti</p>
-</footer>
+    <main>
+        <section id="origem" class="section origem">
+            <div class="container">
+                <div class="origem-texto">
+                    <h2>Introdução e Origem</h2>
+                    <p>
+                        Minha vida mudou no momento em que uma pequena aranha, alterada por radiação,
+                        me picou durante uma excursão escolar. Mas a verdade é que eu não me tornei
+                        um herói naquele dia; eu me tornei um herói no dia em que entendi a lição
+                        mais difícil da minha vida.
+                    </p>
+                </div>
 
-    </body>
-    
+                <div class="origem-imagem">
+                    <img src="/imagens/peter.jpg" alt="Jovem Peter Parker e Homem-Aranha">
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section habilidades">
+            <div class="container">
+                <h2>O Arsenal do Aranha</h2>
+
+                <div class="cards">
+                    <article class="card">
+                        <h3>Sentido Aranha</h3>
+                        <p>Um aviso precognitivo que me alerta sobre perigos iminentes.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Lançadores de Teia</h3>
+                        <p>Dispositivos de pulso com fluidos sintéticos ultra-resistentes.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Agilidade Sobre-humana</h3>
+                        <p>Força e reflexos proporcionais aos de uma aranha.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="dualidade" class="section dualidade">
+            <div class="container">
+                <h2>A Dualidade</h2>
+
+                <div class="duas-colunas">
+                    <div class="coluna">
+                        <h3>Peter Parker</h3>
+                        <p>
+                            O estudante do Queens, o fotógrafo do Clarim Diário,
+                            o cientista que luta para pagar o aluguel e cuidar da Tia May.
+                        </p>
+                    </div>
+
+                    <div class="coluna">
+                        <h3>Homem-Aranha</h3>
+                        <p>
+                            O herói que balança entre os prédios de Manhattan,
+                            enfrentando vilões como o Duende Verde e o Doutor Octopus
+                            para manter a cidade segura.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="desafios" class="section desafios">
+            <div class="container">
+                <h2>Galeria de Desafios</h2>
+                <p class="texto-apoio">
+                    A jornada não foi fácil. Entre perdas irreparáveis, como Gwen Stacy e Tio Ben,
+                    e batalhas épicas, aprendi que ser um herói exige sacrifício constante.
+                </p>
+
+                <div class="galeria">
+                    <div class="galeria-item">
+                        <img src="/imagens/tom_holland.jpg" alt="Homem-Aranha em ação">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="/imagens/marvel-spider-man-tobey.jpg" alt="Tobey">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="/imagens/o-espetacular-homem-aranha.jpg" alt="Andrew">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section citacao">
+            <div class="container">
+                <blockquote>
+                    "As pessoas dizem que sou um herói, mas eu me vejo apenas como um cara que se recusa a desistir."
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="legado" class="section legado">
+            <div class="container">
+                <h2>Conclusão e Legado</h2>
+                <p>
+                    A máscara serve para que qualquer um possa se imaginar sob ela.
+                    Eu não luto apenas contra supervilões; eu luto para que cada cidadão
+                    sinta que tem um amigo por perto. Enquanto eu tiver forças,
+                    continuarei balançando.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos os direitos para Leonardo Paffetti</p>
+    </footer>
+
+</body>
 </html>
+
